@@ -1,3 +1,4 @@
+# Generated code link: https://chatgpt.com/share/6746315d-87cc-8001-b333-c5ddc621e992
 import pygame
 import serial
 import math
@@ -17,7 +18,7 @@ CYAN = (94, 203, 241)  # 5ecbf1
 
 # Serial setup
 try:
-    ser = serial.Serial('COM7', 115200, timeout=1)  # Replace 'COM7' with your port
+    ser = serial.Serial('COM10', 115200, timeout=1)  # Replace 'COM7' with your port
     print("Serial connection established")
 except Exception as e:
     print(f"Error connecting to serial device: {e}")
